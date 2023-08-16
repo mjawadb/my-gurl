@@ -1,0 +1,195 @@
+:root {
+    --primary: #FFCCCC;
+    --secondary: #f1ddb4;
+    --third: #65451F;
+    --fourth: #C8AE7D;
+    --highlight: #CE5959;
+}
+
+body {
+    background-color: var(--primary);
+}
+
+.hero {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hero h1 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero h2 {
+    top: calc(50% + 100px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-text {
+    position: absolute;
+    filter: opacity(0);
+}
+
+.hero img {
+    filter: opacity(.6);
+}
+
+.about {
+    width: 100%;
+    text-align: center;
+}
+
+.text-about-wrapper {
+    border-bottom: 2px solid white;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
+}
+
+.introducing {
+    margin-top: 10px;
+}
+
+.my-fav-things {
+    text-align: center;
+    background-color: var(--secondary);
+    font-weight: bold;
+    min-height: 500px;
+    overflow: hidden;
+}
+
+.my-fav-things h1 {
+    position: relative;
+    z-index: 1;
+}
+
+.main-text {
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
+}
+
+.my-fav-things p span {
+    color: var(--highlight);
+}
+
+.love-letter {
+    top: 0;
+    right: -5px;
+}
+
+.flowers {
+    top: -30px;
+    left: 10px;
+    transform: scale(0.8) rotate(2deg);
+}
+
+.text-shadow {
+    text-shadow: 2px 1px 3px rgba(0, 0, 0, .3);
+}
+
+.button {
+    background-color: var(--highlight);
+    border-radius: 5px;
+}
+
+.rawr {
+    position: relative;
+    max-width: 150px;
+    margin: 0 auto 0;
+    margin-top: 30px;
+    display: none;
+}
+
+.rawr-img {
+    margin: auto;
+    transform: rotate(270deg);
+    border-radius: 10px;
+    margin-top: -50px;
+    filter: opacity(0);
+}
+
+.rawr-p {
+    position: absolute;
+    top: 30px;
+    right: -100px;
+    color: var(--highlight);
+    transform: rotate(30deg);
+    filter: opacity(0);
+    background-color: #2D2727;
+    border-radius: 10px;
+}
+
+.reason img {
+    width: 15em;
+    margin: 10px auto 0;
+}
+
+.reason-5 {
+    position: relative;
+}
+
+.reason-5 .love-flowers {
+    top: -465px;
+    width: 10em;
+    left: -30px;
+    transform: rotate(30deg);
+}
+
+.reason-5 .love-flowers-2 {
+    width: 10em;
+    top: -465px;
+    right: -30px;
+    transform: rotate(-30deg);
+}
+
+.reason-5 .love-flowers-3 {
+    width: 8em;
+    top: -385px;
+    right: -50px;
+    transform: rotate(-30deg);
+}
+
+.reason-5 .love-flowers-4 {
+    width: 8em;
+    top: -385px;
+    left: -50px;
+    transform: rotate(30deg);
+}
+
+@keyframes fadeIn {
+    from {
+        filter: opacity(0);
+    }
+    to {
+        filter: opacity(1);
+    }
+}
+@keyframes fadeInScaleRawrImg {
+    from {
+        filter: opacity(0);
+        transform: scale(0) rotate(270deg);
+    }
+    to {
+        filter: opacity(1);
+        transform: scale(1.3) rotate(270deg);
+    }
+}
+@keyframes fadeInScaleRawrP {
+    from {
+        filter: opacity(0);
+        transform: scale(0) rotate(10deg);
+    }
+    to {
+        filter: opacity(1);
+        transform: scale(1) rotate(10deg);
+    }
+}
+@keyframes fadeOut {
+    from {
+        filter: opacity(1);
+    }
+    to {
+        filter: opacity(0);
+    }
+}
+
+
