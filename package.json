@@ -1,6 +1,6 @@
 {
+  "homepage": "http://mjawadb24.github.io/my-gurl",
   "name": "my-gurl",
-  "homepage": "http://{mjawadb24}.github.io/{my-gurl}",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
