@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-gurl/static/css/main.b43746e4.css",
-    "main.js": "/my-gurl/static/js/main.35174109.js",
+    "main.css": "/my-gurl/static/css/main.2e4889b6.css",
+    "main.js": "/my-gurl/static/js/main.54d06a0e.js",
     "static/js/787.ce3892db.chunk.js": "/my-gurl/static/js/787.ce3892db.chunk.js",
     "static/media/ten.jpg": "/my-gurl/static/media/ten.a3d61cab325849ff0d44.jpg",
     "static/media/flower.png": "/my-gurl/static/media/flower.4a1f2602f64f2a2d366e.png",
@@ -23,16 +23,15 @@
     "static/media/nine.jpg": "/my-gurl/static/media/nine.0a1659eeb159d064e20c.jpg",
     "static/media/bear.png": "/my-gurl/static/media/bear.5db4afca300870abb12a.png",
     "static/media/two.jpg": "/my-gurl/static/media/two.937deb129de0095fcfbb.jpg",
-    "static/media/love-flowers.png": "/my-gurl/static/media/love-flowers.a2cd4869fb026dd8764b.png",
     "static/media/pixelLove.png": "/my-gurl/static/media/pixelLove.c88ef18bdb9b9c27b9ea.png",
     "static/media/logo.svg": "/my-gurl/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/my-gurl/index.html",
-    "main.b43746e4.css.map": "/my-gurl/static/css/main.b43746e4.css.map",
-    "main.35174109.js.map": "/my-gurl/static/js/main.35174109.js.map",
+    "main.2e4889b6.css.map": "/my-gurl/static/css/main.2e4889b6.css.map",
+    "main.54d06a0e.js.map": "/my-gurl/static/js/main.54d06a0e.js.map",
     "787.ce3892db.chunk.js.map": "/my-gurl/static/js/787.ce3892db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b43746e4.css",
-    "static/js/main.35174109.js"
+    "static/css/main.2e4889b6.css",
+    "static/js/main.54d06a0e.js"
   ]
 }
