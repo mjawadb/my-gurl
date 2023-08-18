@@ -155,6 +155,14 @@ body {
     transform: rotate(30deg);
 }
 
+.gallery {
+    background-color: var(--primary);
+}
+
+.footer {
+    background-color: #2D2727;
+}
+
 @keyframes fadeIn {
     from {
         filter: opacity(0);

@@ -14,7 +14,6 @@ import hengker from '../../assets/img/hengker.jpg';
 import humble from '../../assets/img/humble.jpg';
 import perfect from '../../assets/img/perfect.jpg';
 import dunno from '../../assets/img/dunno.jpg';
-import loveFlowers from '../../assets/img/love-flowers.png';
 import pixelLove from '../../assets/img/pixelLove.png';
 
 
@@ -172,7 +171,7 @@ class MyGirl extends Component {
                   <img className="rounded-xl" src={perfect} alt="" />
                 </div>
 
-                <div className="reason reason-5 mb-72">
+                <div className="reason reason-5">
                   <p className="mt-32 text-center main-text text-white text-3xl">5. i dunno <span>i just love her</span></p>
                   <img className="rounded-xl" src={dunno} alt="" />
                   <Plx parallaxData={this.state.parallaxpixelLove}>
@@ -186,7 +185,14 @@ class MyGirl extends Component {
                 </div>
             </div>
 
-            <div className=""></div>
+            <div className="gallery pt-10">
+              <h1 className="text-white main-text text-center text-4xl px-10">'*•.¸♡ ♡¸.•*'</h1>
+              <ParallaxTemplate/>
+            </div>
+
+            {/* <div className="footer h-72">
+              
+            </div> */}
         </div>
         )
     }
